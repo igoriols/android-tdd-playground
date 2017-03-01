@@ -19,4 +19,8 @@ public class ExampleUnitTest {
         assertEquals(2, 8 / 4);
     }
 
+    @Test public void multiplicationShouldBeCorrect() {
+        assertEquals(4, 2 * 2);
+    }
+
 }
